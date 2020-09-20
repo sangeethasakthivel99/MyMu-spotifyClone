@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyMu</string>
+    <string name="initial_timer">00:00</string>
 </resources>
