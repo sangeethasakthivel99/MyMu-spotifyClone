@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "651055352157",
+    "firebase_url": "https://chat-me-bd377.firebaseio.com",
+    "project_id": "chat-me-bd377",
+    "storage_bucket": "chat-me-bd377.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651055352157:android:488d449c937b593056c0b4",
+        "android_client_info": {
+          "package_name": "com.sangeetha.justchatme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651055352157-8m9752dmqhvv3quq9vdddhl5us7g4h9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tWa4pq040zwOimp0yse9i6zhjoQIvJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651055352157-8m9752dmqhvv3quq9vdddhl5us7g4h9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651055352157:android:fda061b8cc52bfb356c0b4",
+        "android_client_info": {
+          "package_name": "com.sangeetha.mymu_spotifyclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651055352157-8m9752dmqhvv3quq9vdddhl5us7g4h9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tWa4pq040zwOimp0yse9i6zhjoQIvJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651055352157-8m9752dmqhvv3quq9vdddhl5us7g4h9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
