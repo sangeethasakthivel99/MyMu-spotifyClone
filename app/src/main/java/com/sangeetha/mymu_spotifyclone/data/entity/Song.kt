@@ -1,6 +1,6 @@
 package com.sangeetha.mymu_spotifyclone.data.entity
 
-data class Song(
+data class SongEntity(
     val mediaId: String = "",
     val title: String = "",
     val subtitle: String = "",
