@@ -6,6 +6,7 @@ import com.google.android.exoplayer2.SimpleExoPlayer
 import com.google.android.exoplayer2.audio.AudioAttributes
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
 import com.google.android.exoplayer2.util.Util
+import com.sangeetha.mymu_spotifyclone.data.database.SongDatabase
 import dagger.Provides
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.android.scopes.ServiceScoped
@@ -40,4 +41,8 @@ object ServiceModule {
     fun provideDataSourceFactory(@ApplicationContext context: Context): DefaultDataSourceFactory {
         return DefaultDataSourceFactory(context, Util.getUserAgent(context, "MyMu"))
     }
+
+    @ServiceScoped
+    @Provides
+    fun provideSongDatabase() = SongDatabase()
 }
