@@ -15,9 +15,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
-class FirebaseMusicService @Inject constructor(private val songDatabase: SongDatabase){
+class FirebaseMusicSource @Inject constructor(private val songDatabase: SongDatabase){
 
-    private var songs = emptyList<MediaMetadataCompat>()
+    var songs = emptyList<MediaMetadataCompat>()
 
     private val onReadyListener = mutableListOf<(Boolean) -> Unit>()
 
