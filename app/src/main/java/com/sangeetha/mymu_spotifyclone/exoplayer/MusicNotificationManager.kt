@@ -37,7 +37,7 @@ class MusicNotificationManager(
         setMediaSessionToken(sessionToken)
     }
 
-    private fun showNotification(player: Player) {
+    fun showNotification(player: Player) {
         notificationManager.setPlayer(player)
     }
 
