@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">MyMu</string>
     <string name="initial_timer">00:00</string>
+    <string name="notification_channel_name">Music Channel</string>
+    <string name="notification_channel_description">Shows the currently playing music</string>
 </resources>
